@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 const SpaceGrotesk = Space_Grotesk({subsets: ['latin'], weight: ['300', '400', '500', '600', '700']})
 
 export const metadata: Metadata = {
-  title: 'Pricepulse',
+  title: 'PricePulse',
   description: 'Track product prices effortlessly and save money on your online shopping',
 }
 
@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href=" C:\Users\heram\OneDrive\Desktop\pricepulse\app\real_favicon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <main className="max-w-10xl mx-auto">
           <Navbar />
